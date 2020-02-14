@@ -1,0 +1,18 @@
+[ 2016-10-12T10:14:37+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 非法操作:showList
+
+[ 2016-10-12T10:14:38+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+ERR: 非法操作:add
+
+[ 2016-10-12T10:17:42+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+ERR: 模板不存在:./Application/Admin/View/User/add.html
+
+[ 2016-10-12T10:36:47+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 非法操作:showList
+
+[ 2016-10-12T10:41:53+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 模板不存在:./Application/Admin/View/User/showList.html
+
+[ 2016-10-12T16:12:35+08:00 ] 127.0.0.1 /index.php/Admin/User/charts
+ERR: 模板不存在:./Application/Admin/View/User/charts.html
+

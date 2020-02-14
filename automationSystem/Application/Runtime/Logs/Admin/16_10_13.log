@@ -1,0 +1,27 @@
+[ 2016-10-13T09:24:47+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList.html
+ERR: 非法操作:showList
+
+[ 2016-10-13T09:24:51+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList.html
+ERR: 非法操作:showList
+
+[ 2016-10-13T09:24:55+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add.html
+ERR: 非法操作:add
+
+[ 2016-10-13T09:29:06+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add.html
+ERR: 模板不存在:./Application/Admin/View/Doc/add.html
+
+[ 2016-10-13T09:42:11+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList.html
+ERR: 非法操作:showList
+
+[ 2016-10-13T09:42:49+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList.html
+ERR: 非法操作:showList
+
+[ 2016-10-13T09:43:43+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList.html
+ERR: 非法操作:showList
+
+[ 2016-10-13T09:48:47+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList.html
+ERR: 模板不存在:./Application/Admin/View/Doc/showList.html
+
+[ 2016-10-13T17:27:58+08:00 ] 127.0.0.1 /index.php/Admin/Test/test46
+ERR: 非法操作:test46
+

@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="__ADMIN__/css/base.css" />
+<link rel="stylesheet" href="__ADMIN__/css/info-mgt.css" />
+<link rel="stylesheet" href="__ADMIN__/css/WdatePicker.css" />
+<title>移动办公自动化系统</title>
+<style type='text/css'>
+	table tr .id{ width:63px; text-align: center;}
+	table tr .name{ width:118px; padding-left:17px;}
+	table tr .addtime{ width:160px; padding-left:13px;}
+	table tr .operate{ padding-left:13px;}
+</style>
+</head>
+
+<body>
+<div class="title"><h2>公文管理</h2></div>
+<div class="table-operate ue-clear">
+	<a href="__CONTROLLER__/add" class="add">添加</a>
+    <a href="javascript:;" class="del">删除</a>
+    <a href="javascript:;" class="edit">编辑</a>
+    <a href="javascript:;" class="count">统计</a>
+    <a href="javascript:;" class="check">审核</a>
+</div>
+<div class="table-box">
+	<table>
+    	<thead>
+        	<tr>
+            	<th class="id">序号</th>
+                <th class="name">标题</th>
+				<th class="file">附件</th>
+                <th class="content">作者</th>
+				<th class="addtime">添加时间</th>
+                <th class="operate">操作</th>
+            </tr>
+        </thead>
+        <tbody>
+        	<volist name='data' id='vol'>
+        	<tr>
+            	<td class="id">{$vol.id}</td>
+                <td class="name">{$vol.title|msubstr=0,8}</td>
+				<td class="file">{$vol.filename}<notempty name='vol.filename'>【<a href='__CONTROLLER__/download/id/{$vol.id}'>下载</a>】</notempty></td>
+                <td class="content">{$vol.author}</td>
+                <td class="addtime">{$vol.addtime|date='Y-m-d H:i:s',###}</td>
+                <td class="operate">
+                    <!--input align="center" type="checkbox" value="{$vol.id}"/-->
+                    <a href ='javascript:;' class='show' data='{$vol.id}' data-title='{$vol.title}'>查看</a> |
+                    <a href ='__CONTROLLER__/edit/id/{$vol.id}'>编辑</a> 
+                </td>
+            </tr>
+            </volist>
+        </tbody>
+    </table>
+</div>
+<div class="pagination ue-clear">
+	<div class="pagin-list">
+        {$show}
+	</div>
+	<div class="pxofy">显示第 1 条到 10 条记录，总共{$count}条记录</div>
+</div>
+</body>
+<script type="text/javascript" src="__ADMIN__/js/jquery.js"></script>
+<script type="text/javascript" src="__ADMIN__/js/common.js"></script>
+<script type="text/javascript" src="__ADMIN__/js/WdatePicker.js"></script>
+<script type="text/javascript" src="__ADMIN__/plugin/layer/layer.js"></script>
+<script type="text/javascript" src="__ADMIN__/js/jquery.pagination.js"></script>
+<script type="text/javascript">
+
+$(".select-title").on("click",function(){
+	$(".select-list").hide();
+	$(this).siblings($(".select-list")).show();
+	return false;
+});
+$(".select-list").on("click","li",function(){
+	var txt = $(this).text();
+	$(this).parent($(".select-list")).siblings($(".select-title")).find("span").text(txt);
+});
+
+/*$('.pagination').pagination(100,{
+    callback: function(page){
+        alert(page);
+    },
+    display_msg: true,
+    setPageNo: true
+});
+*/
+$("tbody").find("tr:odd").css("backgroundColor","#eff6fa");
+showRemind('input[type=text], textarea','placeholder');
+
+//jQuery代码
+$(function(){
+    //给查看按钮绑定点击事件
+    $('.show').on('click',function(){
+        //获取id
+        var id = $(this).attr('data');
+        //获取公文标题
+        var title = $(this).attr('data-title');
+        layer.open({
+            type: 2,
+            title: title,
+            shadeClose: true,
+            shade: 0,   //背景透明
+            area: ['560px', '90%'],
+            content: '__CONTROLLER__/showContent/id/' + id //iframe的url
+        }); 
+    });
+});
+</script>
+</html>

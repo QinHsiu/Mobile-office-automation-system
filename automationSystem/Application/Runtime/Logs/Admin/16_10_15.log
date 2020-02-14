@@ -1,0 +1,96 @@
+[ 2016-10-15T09:29:56+08:00 ] 127.0.0.1 /index.php/Admin/Doc/edit/id/5
+ERR: 非法操作:edit
+
+[ 2016-10-15T09:32:07+08:00 ] 127.0.0.1 /index.php/Admin/Doc/edit/id/5
+ERR: 模板不存在:./Application/Admin/View/Doc/edit.html
+
+[ 2016-10-15T10:05:07+08:00 ] 127.0.0.1 /index.php/Admin/Doc/tt
+ERR: Think\Controller:error方法不存在！
+
+[ 2016-10-15T10:05:38+08:00 ] 127.0.0.1 /index.php/Admin/Doc/tt
+ERR: Think\Controller:success方法不存在！
+
+[ 2016-10-15T10:07:34+08:00 ] 127.0.0.1 /index.php/Admin/Doc/tt
+ERR: Think\Controller:success方法不存在！
+
+[ 2016-10-15T10:07:58+08:00 ] 127.0.0.1 /index.php/Admin/Doc/tt
+ERR: Think\Controller:success方法不存在！
+
+[ 2016-10-15T10:28:48+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/showList.html
+ERR: 无法加载控制器:Knowledge
+
+[ 2016-10-15T10:28:49+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/add.html
+ERR: 无法加载控制器:Knowledge
+
+[ 2016-10-15T10:34:05+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/add.html
+ERR: 模板不存在:./Application/Admin/View/Knowledge/add.html
+
+[ 2016-10-15T10:34:14+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/add.html
+ERR: 模板不存在:./Application/Admin/View/Knowledge/add.html
+
+[ 2016-10-15T10:34:17+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/add.html
+ERR: 模板不存在:./Application/Admin/View/Knowledge/add.html
+
+[ 2016-10-15T11:15:52+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/showList.html
+ERR: 非法操作:showList
+
+[ 2016-10-15T11:35:10+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/showList.html
+ERR: 非法操作:showList
+
+[ 2016-10-15T11:35:50+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/showList.html
+ERR: 非法操作:showList
+
+[ 2016-10-15T11:39:30+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/showList.html
+ERR: 模板不存在:./Application/Admin/View/Knowledge/showList.html
+
+[ 2016-10-15T11:49:08+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/download/id/2
+ERR: 非法操作:download
+
+[ 2016-10-15T14:51:31+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 无法加载控制器:Email
+
+[ 2016-10-15T14:51:33+08:00 ] 127.0.0.1 /index.php/Admin/Email/sendBox.html
+ERR: 无法加载控制器:Email
+
+[ 2016-10-15T14:51:35+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: 无法加载控制器:Email
+
+[ 2016-10-15T14:51:39+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: 无法加载控制器:Email
+
+[ 2016-10-15T14:58:48+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 模板不存在:./Application/Admin/View/Email/send.html
+
+[ 2016-10-15T14:58:50+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 模板不存在:./Application/Admin/View/Email/send.html
+
+[ 2016-10-15T14:58:53+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 模板不存在:./Application/Admin/View/Email/send.html
+
+[ 2016-10-15T15:27:25+08:00 ] 127.0.0.1 /index.php/Admin/Email/sendBox.html
+ERR: 非法操作:sendBox
+
+[ 2016-10-15T15:49:43+08:00 ] 127.0.0.1 /index.php/Admin/Email/sendBox.html
+ERR: 非法操作:sendBox
+
+[ 2016-10-15T16:01:06+08:00 ] 127.0.0.1 /index.php/Admin/Email/sendBox.html
+ERR: 模板不存在:./Application/Admin/View/Email/sendBox.html
+
+[ 2016-10-15T16:14:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/index1.html
+ERR: 非法操作:index1
+
+[ 2016-10-15T16:15:08+08:00 ] 127.0.0.1 /index.php/Admin/Index1/index1.html
+ERR: 无法加载控制器:Index1
+
+[ 2016-10-15T16:17:53+08:00 ] 127.0.0.1 /index.php/Admin/Email/index
+ERR: 非法操作:index
+
+[ 2016-10-15T16:20:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/index10009000
+ERR: 非法操作:index10009000
+
+[ 2016-10-15T16:28:23+08:00 ] 127.0.0.1 /index.php/Admin/Index1303/index
+ERR: 模板不存在:./Application/Admin/View/Index1303/error.html
+
+[ 2016-10-15T19:52:37+08:00 ] 127.0.0.1 /index.php/Admin/Test/test46%E3%80%91
+ERR: 非法操作:test46】
+

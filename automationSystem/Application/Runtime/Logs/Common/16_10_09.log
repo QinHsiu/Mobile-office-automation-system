@@ -1,0 +1,6 @@
+[ 2016-10-09T09:45:08+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2016-10-09T10:01:44+08:00 ] 127.0.0.1 /index.php/Admin1/Test1/body1
+ERR: 无法加载模块:Admin1
+

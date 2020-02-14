@@ -1,0 +1,123 @@
+[ 2016-10-09T10:00:34+08:00 ] 127.0.0.1 /index.php/Admin/Test/body1
+ERR: 非法操作:body1
+
+[ 2016-10-09T10:01:26+08:00 ] 127.0.0.1 /index.php/Admin/Test/body1
+ERR: 非法操作:body1
+
+[ 2016-10-09T10:01:40+08:00 ] 127.0.0.1 /index.php/Admin/Test1/body1
+ERR: 无法加载控制器:Test1
+
+[ 2016-10-09T15:57:56+08:00 ] 127.0.0.1 /index.php/Admin/Test/test27
+ERR: Think\Model:feild方法不存在！
+
+[ 2016-10-09T19:16:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+ERR: 模板不存在:./Application/Admin/View/Index/index.html
+
+[ 2016-10-09T19:16:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+ERR: 模板不存在:./Application/Admin/View/Index/index.html
+
+[ 2016-10-09T19:17:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/base.css
+ERR: 非法操作:css
+
+[ 2016-10-09T19:17:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/core.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:17:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.dialog.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:17:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/index.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:17:45+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/jquery.dialog.css
+ERR: 非法操作:css
+
+[ 2016-10-09T19:17:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/index.css
+ERR: 非法操作:css
+
+[ 2016-10-09T19:17:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:17:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:17:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/core.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:17:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/base.css
+ERR: 非法操作:css
+
+[ 2016-10-09T19:17:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/home.css
+ERR: 非法操作:css
+
+[ 2016-10-09T19:17:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:17:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:17:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.dialog.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:17:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:17:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/index.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:17:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:18:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/base.css
+ERR: 非法操作:css
+
+[ 2016-10-09T19:18:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/home.css
+ERR: 非法操作:css
+
+[ 2016-10-09T19:18:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:18:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:18:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:18:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:20:20+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2016-10-09T19:21:04+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2016-10-09T19:34:45+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: 非法操作:showList
+
+[ 2016-10-09T19:34:49+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: 非法操作:add
+
+[ 2016-10-09T19:34:52+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: 非法操作:add
+
+[ 2016-10-09T19:38:21+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: 模板不存在:./Application/Admin/View/Dept/add.html
+
+[ 2016-10-09T19:39:49+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/base.css
+ERR: 非法操作:css
+
+[ 2016-10-09T19:39:50+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/info-reg.css
+ERR: 非法操作:css
+
+[ 2016-10-09T19:39:52+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:39:52+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-09T19:39:52+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2016-10-09T20:11:45+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: 非法操作:showList
+

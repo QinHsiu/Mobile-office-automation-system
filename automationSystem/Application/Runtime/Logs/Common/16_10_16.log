@@ -1,0 +1,15 @@
+[ 2016-10-16T09:00:35+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2016-10-16T10:11:05+08:00 ] 127.0.0.1 /Public/Admin/plugin/ue/lang/zh-ch/zh-ch.js
+ERR: 无法加载模块:Public
+
+[ 2016-10-16T10:11:06+08:00 ] 127.0.0.1 /Public/Admin/plugin/ue/lang/zh-ch/zh-ch.js
+ERR: 无法加载模块:Public
+
+[ 2016-10-16T15:33:05+08:00 ] 127.0.0.1 /Public/Admin/plugin/ue/lang/zh-ch/zh-ch.js
+ERR: 无法加载模块:Public
+
+[ 2016-10-16T15:33:05+08:00 ] 127.0.0.1 /Public/Admin/plugin/ue/lang/zh-ch/zh-ch.js
+ERR: 无法加载模块:Public
+
